@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 driver.get("http://uitestingplayground.com/textinput")
-
 # Вводим текст в поле
 input_field = driver.find_element(By.CSS_SELECTOR, "#newButtonName")
 input_field.send_keys("SkyPro")
