@@ -15,5 +15,4 @@ waiter.until(EC.text_to_be_present_in_element((By.CSS_SELECTOR, ".lead"), "Done!
 image = driver.find_element(By.CSS_SELECTOR, "#award")
 
 third_img = image.get_attribute("src")
-
 driver.quit()
