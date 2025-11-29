@@ -11,7 +11,6 @@ input_field.send_keys("SkyPro")
 # Нажимаем на кнопку
 button = driver.find_element(By.CSS_SELECTOR, "#updatingButton")
 button.click()
-
 # Получаем обновленный текст кнопки
 print(button.text)
 
