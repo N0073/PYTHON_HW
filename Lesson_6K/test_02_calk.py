@@ -14,5 +14,4 @@ button.click()
 
 # Получаем обновленный текст кнопки
 print(button.text)
-
 driver.quit()

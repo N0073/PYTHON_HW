@@ -10,8 +10,6 @@ driver.get("https://bonigarcia.dev/selenium-webdriver-java/loading-images.html")
 third_image = WebDriverWait(driver, 20).until(
     EC.presence_of_element_located((By.CSS_SELECTOR, "#image-container img:nth-child(3)"))
 )
-
 # Получаем src третьей картинки
 print(third_image.get_attribute("src"))
-
 driver.quit()
