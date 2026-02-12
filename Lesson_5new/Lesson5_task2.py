@@ -1,4 +1,3 @@
-from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -12,6 +11,9 @@ driver.get("http://uitestingplayground.com/classattr")
 button = driver.find_element(By.CSS_SELECTOR, '.btn-primary')
 button.click()
 
-print("Клик по кнопке с CSS-классом")
+print("Клик на синюю кнопку с CSS-классом выполнен успешно! ✅")
 
-sleep(10)
+driver.quit()
+
+
+

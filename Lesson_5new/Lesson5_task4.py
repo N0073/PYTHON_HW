@@ -10,6 +10,6 @@ driver.find_element("css selector", "button").click()
 
 # Получаем текст плашки
 message = driver.find_element("id", "flash").text
-print(" OK MESSAGE")
+print("message")
 
 driver.quit()
