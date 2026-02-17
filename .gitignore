@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Файлы окружения
+.env
+*.env
+.env.local
+.env.*.local
+
+# IDE файлы (PyCharm)
+.idea/
+__pycache__/
+*.pyc
+
+# Логи и временные файлы
+*.log
+*.tmp
