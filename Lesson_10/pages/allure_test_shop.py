@@ -4,10 +4,10 @@ from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 
-from pages.allure_auth_page import AuthPage
-from pages.allure_main_page import MainPage
-from pages.allure_cart_page import CartPage
-from pages.allure_order_page import OrderPage
+from PYTHON_HW.Lesson_10.pages.allure_auth_page import AuthPage
+from PYTHON_HW.Lesson_10.pages.allure_main_page import MainPage
+from PYTHON_HW.Lesson_10.pages.allure_cart_page import CartPage
+from PYTHON_HW.Lesson_10.pages.allure_order_page import OrderPage
 
 @pytest.fixture
 def driver():
